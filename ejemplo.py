@@ -1,5 +1,3 @@
-from traceback import format_list
-
 print("Hello World")
 x = "Alberto"
 print(x)
@@ -49,8 +47,51 @@ for i in range(4):
     
 print()
 # # Eine andere Zeichenkette 6-mal in der Konsole ausgeben
-# text2 = input("Füge eine Programmiersprache ein:")
+# text2 = input("Füge eine Programmiersprache ein: ")
 # anzahl = int(input("Welche:"))
 # for t in range(6):
 #     print(text2)
+
+# While-Schleife
+t = 8
+while t <= 10:
+    print(t)
+    t = t + 1
+
+print()
+
+text3 = input("Was soll wiederholt werden?: ")
+anzahl3 = int(input("Wie oft: "))
+
+u = 1
+while u <= anzahl3:
+    print(u)
+    u = u + 1
+
+print()
+i = 0
+while i < 5:
+    print(i)
+
+    i += 1
+
+print()
+
+zaehler = 0
+ergebnis = 0
+schleifendurchlauefe = 0
+
+while zaehler < 5:
+    ergebnis = ergebnis + 1
+    zaehler = zaehler + 1
+    schleifendurchlauefe = schleifendurchlauefe + 1
+print("Fertig! Ergebnis = ", ergebnis)
+print("Schleifendurchläufe = ", schleifendurchlauefe)
+print("Zähler =", zaehler)
+
+print()
+
+for e in range(7,71,7):
+    print(e)
+
 
