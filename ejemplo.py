@@ -1,6 +1,7 @@
 print("Hello World")
 x = "Alberto"
 print(x)
+# Hola
 print(x[2:5])
 age = 47
 print(age)
@@ -93,5 +94,15 @@ print()
 
 for e in range(7,71,7):
     print(e)
+
+# Schleife while
+n = 7
+while n < 71:
+    print(n)
+    n = n + 7
+
+
+
+
 
 
