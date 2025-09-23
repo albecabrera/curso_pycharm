@@ -14,3 +14,4 @@ eingabe_euro = float(input("Wie viel Euro hast du? "))
 cuc = eingabe_euro * 30.05
 print("Super! Deine ", eingabe_euro, "Euro sind ", cuc, "cuc wert.")
 
+
